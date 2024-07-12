@@ -1,0 +1,54 @@
+The error message "Method Not Allowed" typically occurs when the HTTP method used in the request does not match the method that the server expects for that URL route. In your case, you're encountering this issue when trying to delete a user via a DELETE request at `http://127.0.0.1:5000/user/deleteuser/1`.
+
+Let's go through the relevant parts of your code and identify potential issues:
+
+### 1. Flask Route for DELETE Method
+
+In your `user_controller.py` file, you have defined a route to handle DELETE requests for deleting a user:
+
+```python
+@app.route('/user/deleteuser/<int:id>', methods=["DELETE"])
+def delete_user(id):
+    print(id)
+    return obj.user_delete_model(id)
+```
+
+This route expects a DELETE request with an integer `id` parameter in the URL. This part seems correct.
+
+### 2. Making DELETE Request
+
+When making a DELETE request to this endpoint (`http://127.0.0.1:5000/user/deleteuser/1`), ensure the following:
+
+- **HTTP Method:** Make sure you are indeed sending a DELETE request. This can be done using tools like `curl`, Postman, or via JavaScript fetch API with `method: 'DELETE'`.
+  
+- **Request Format:** For Flask's `request.form` to work with DELETE requests, you typically use the `request.args` for query parameters or `request.get_json()` for JSON data, but in your case, since you are passing the ID directly in the URL, you don't need to handle form data explicitly.
+
+### 3. Testing and Debugging
+
+Here's how you can debug and test:
+
+- Use `print()` statements to debug within your Flask route to see if the `id` parameter is correctly extracted.
+- Check your Flask server console or logs for any errors or warnings when making the DELETE request.
+
+### Potential Issue in Code
+
+In your `user_model.py`, the `user_delete_model` method looks correct, but ensure that `self.db.commit()` is called after `self.cursor.execute(query, values)` to apply the delete operation in the database.
+
+### Example CURL Command
+
+You can test your DELETE endpoint using `curl`:
+
+```bash
+curl -X DELETE http://127.0.0.1:5000/user/deleteuser/1
+```
+
+This sends a DELETE request to delete the user with ID `1`.
+
+### Summary
+
+- Ensure your Flask route is correctly set up to handle DELETE requests.
+- Verify the HTTP method used in your request matches what Flask expects (`DELETE` in this case).
+- Debug using `print()` statements to ensure the ID is correctly received by the Flask route.
+- Check database operations (`commit()` in `user_delete_model`) to ensure changes are applied.
+
+By following these steps, you should be able to resolve the "Method Not Allowed" error and successfully delete users via the DELETE request.
