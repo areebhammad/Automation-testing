@@ -1,0 +1,138 @@
+INSERT INTO Series (slug, title, title_eng, link, year, description, releaseYear, rating, star, runtime, network, status, trailer, recommendationScore) VALUES
+('menajerimi-ara', 'Menajerimi Ara', 'Call My Manager', NULL, '2020', 'A drama about the lives of talent agents and their clients.', 2020, 'TV-14', 7.5, '45 min', 'Star TV', 'Ended', 'https://www.youtube.com/watch?v=example1', 7.5),
+('baraj', 'Baraj', 'Dam', NULL, '2020', 'A love story that unfolds against the backdrop of a dam.', 2020, 'TV-14', 6.8, '120 min', 'Kanal D', 'Ended', 'https://www.youtube.com/watch?v=example2', 6.8),
+('babil', 'Babil', 'Babylon', NULL, '2020', 'A gripping story about a father who will do anything for his son.', 2020, 'TV-14', 7.4, '120 min', 'Star TV', 'Ended', 'https://www.youtube.com/watch?v=example3', 7.4),
+('dogdugun-ev-kaderindir', 'Doğduğun Ev Kaderindir', 'Your Home is Your Destiny', NULL, '2020', 'A tale of love and fate intertwined.', 2020, 'TV-14', 7.9, '120 min', 'TV8', 'Ended', 'https://www.youtube.com/watch?v=example4', 7.9),
+('gencligim-eyvah', 'Gençliğim Eyvah', 'My Youth is a Mess', NULL, '2021', 'A comedy about the challenges of youth.', 2021, 'TV-14', 6.5, '90 min', 'TRT 1', 'Ended', 'https://www.youtube.com/watch?v=example5', 6.5),
+('adi-mutluluk', 'Adı Mutluluk', 'Name Happiness', NULL, '2015', 'A romantic drama exploring love and family.', 2015, 'TV-14', 6.7, '120 min', 'Fox', 'Ended', 'https://www.youtube.com/watch?v=example6', 6.7),
+('hayat-sarkisi', 'Hayat Şarkısı', 'The Song of Life', NULL, '2016', 'A drama about the struggles of life and love.', 2016, 'TV-14', 7.2, '120 min', 'Kanal D', 'Ended', 'https://www.youtube.com/watch?v=example7', 7.2),
+('ask-yeniden', 'Aşk Yeniden', 'Love Again', NULL, '2015', 'A romantic comedy about second chances.', 2015, 'TV-14', 7.0, '120 min', 'Fox', 'Ended', 'https://www.youtube.com/watch?v=example8', 7.0),
+('benim-adim-melek', 'Benim Adım Melek', 'My Name is Melek', NULL, '2019', 'A touching story about a mother''s love and sacrifice.', 2019, 'TV-14', 7.3, '120 min', 'TRT 1', 'Ended', 'https://www.youtube.com/watch?v=example9', 7.3),
+('yuksek-sosyete', 'Yüksek Sosyete', 'High Society', NULL, '2016', 'A romantic drama set in the high society of Istanbul.', 2016, 'TV-14', 6.6, '120 min', 'Star TV', 'Ended', 'https://www.youtube.com/watch?v=example10', 6.6);
+
+
+
+INSERT INTO Series (slug, title, title_eng, link, year, description, releaseYear, rating, star, runtime, network, status, trailer, recommendationScore) VALUES
+('sampiyon', 'Sampiyon', 'Champion', NULL, '2021', 'A story about a boxer and his struggles.', 2021, 'TV-14', 7.5, '45 min', 'Star TV', 'Ended', 'https://www.youtube.com/watch?v=example1', 7.5),
+('yemin', 'Yemin', 'The Promise', NULL, '2019', 'A love story filled with promises and challenges.', 2019, 'TV-14', 6.8, '120 min', 'Kanal 7', 'Ended', 'https://www.youtube.com/watch?v=example2', 6.8),
+('erkenci-kus', 'Erkenci Kuş', 'Early Bird', NULL, '2018', 'A romantic comedy about a young woman and her boss.', 2018, 'TV-14', 7.8, '120 min', 'Star TV', 'Ended', 'https://www.youtube.com/watch?v=example3', 7.8),
+('fatih-harbiye', 'Fatih Harbiye', 'Fatih Harbiye', NULL, '2013', 'A drama about love and cultural clashes.', 2013, 'TV-14', 7.0, '120 min', 'Show TV', 'Ended', 'https://www.youtube.com/watch?v=example4', 7.0),
+('4n1k-ilk-ask', '4N1K ilk ask', '4N1K: First Love', NULL, '2016', 'A romantic drama about first love.', 2016, 'TV-14', 6.5, '90 min', 'Star TV', 'Ended', 'https://www.youtube.com/watch?v=example5', 6.5),
+('bizim-hikaye', 'Bizim Hikaye', 'Our Story', NULL, '2017', 'A story about a dysfunctional family.', 2017, 'TV-14', 7.4, '120 min', 'Fox', 'Ended', 'https://www.youtube.com/watch?v=example6', 7.4),
+('seviyor-sevmiyor', 'Seviyor Sevmiyor', 'Loves Me, Loves Me Not', NULL, '2016', 'A romantic comedy about love and misunderstandings.', 2016, 'TV-14', 6.9, '120 min', 'Star TV', 'Ended', 'https://www.youtube.com/watch?v=example7', 6.9),
+('zalim-istanbul', 'Zalim İstanbul', 'Cruel Istanbul', NULL, '2019', 'A drama about family and betrayal.', 2019, 'TV-14', 7.2, '120 min', 'Kanal D', 'Ended', 'https://www.youtube.com/watch?v=example8', 7.2),
+('kuzey-guney', 'Kuzey Güney', 'North South', NULL, '2011', 'A story about two brothers with opposing lives.', 2011, 'TV-14', 7.6, '120 min', 'Kanal D', 'Ended', 'https://www.youtube.com/watch?v=example9', 7.6),
+('kiraz-mevsimi', 'Kiraz Mevsimi', 'Cherry Season', NULL, '2014', 'A romantic comedy about a love triangle.', 2014, 'TV-14', 7.0, '120 min', 'Star TV', 'Ended', 'https://www.youtube.com/watch?v=example10', 7.0);
+
+
+
+INSERT INTO Series (slug, title, title_eng, link, year, description, releaseYear, rating, star, runtime, network, status, trailer, recommendationScore) VALUES
+('soz', 'Söz', 'The Oath', NULL, '2017', 'A gripping drama about a special forces officer.', 2017, 'TV-14', 7.5, '120 min', 'Star TV', 'Ended', 'https://www.youtube.com/watch?v=example1', 7.5),
+('iffet', 'Iffet', 'Iffet', NULL, '2011', 'A romantic drama about love and betrayal.', 2011, 'TV-14', 6.9, '120 min', 'Kanal D', 'Ended', 'https://www.youtube.com/watch?v=example2', 6.9),
+('gecenin-kralicesi', 'Gecenin Kralicesi', 'Queen of the Night', NULL, '2016', 'A story of love and ambition in the music industry.', 2016, 'TV-14', 7.0, '120 min', 'Star TV', 'Ended', 'https://www.youtube.com/watch?v=example3', 7.0),
+('meryem', 'Meryem', 'Meryem', NULL, '2017', 'A drama about a woman seeking justice.', 2017, 'TV-14', 6.8, '120 min', 'Kanal D', 'Ended', 'https://www.youtube.com/watch?v=example4', 6.8),
+('ramo', 'Ramo', 'Ramo', NULL, '2020', 'A story of a man caught between love and crime.', 2020, 'TV-14', 7.4, '120 min', 'Show TV', 'Ended', 'https://www.youtube.com/watch?v=example5', 7.4),
+('gunesin-kizlari', 'Güneşin Kızları', 'Daughters of the Sun', NULL, '2015', 'A story about the lives of three sisters.', 2015, 'TV-14', 7.2, '120 min', 'Star TV', 'Ended', 'https://www.youtube.com/watch?v=example6', 7.2),
+('sen-anlat-karadeniz', 'Sen Anlat Karadeniz', 'Tell Me About the Black Sea', NULL, '2018', 'A gripping tale of love and revenge.', 2018, 'TV-14', 7.5, '120 min', 'ATV', 'Ended', 'https://www.youtube.com/watch?v=example7', 7.5),
+('karadayi', 'Karadayı', 'Karadayi', NULL, '2012', 'A story of love and justice in the 1970s.', 2012, 'TV-14', 8.0, '120 min', 'ATV', 'Ended', 'https://www.youtube.com/watch?v=example8', 8.0),
+('kalp-atisi', 'Kalp Atışı', 'Heartbeat', NULL, '2019', 'A medical drama about love and life.', 2019, 'TV-14', 7.3, '120 min', 'Show TV', 'Ended', 'https://www.youtube.com/watch?v=example9', 7.3),
+('canevim', 'Canevim', 'My Home', NULL, '2020', 'A heartwarming story about family and love.', 2020, 'TV-14', 6.7, '120 min', 'Star TV', 'Ended', 'https://www.youtube.com/watch?v=example10', 6.7);
+
+
+
+
+INSERT INTO Series (slug, title, title_eng, link, year, description, releaseYear, rating, star, runtime, network, status, trailer, recommendationScore) VALUES
+('hekimoglu', 'Hekimoglu', 'Hekimoğlu', NULL, '2019', 'A medical drama about a brilliant doctor.', 2019, 'TV-14', 7.8, '120 min', 'Kanal D', 'Ended', 'https://www.youtube.com/watch?v=example1', 7.8),
+('cennet', 'Cennet', 'Paradise', NULL, '2019', 'A story about love and family struggles.', 2019, 'TV-14', 7.1, '120 min', 'Kanal D', 'Ended', 'https://www.youtube.com/watch?v=example2', 7.1),
+('kizim', 'Kızım', 'My Daughter', NULL, '2018', 'A touching story about a father and daughter.', 2018, 'TV-14', 8.2, '120 min', 'TV8', 'Ended', 'https://www.youtube.com/watch?v=example3', 8.2),
+('fatmagul', 'Fatmagül', 'Fatmagül''ün Suçu Ne?', NULL, '2010', 'A drama about a young woman seeking justice.', 2010, 'TV-14', 7.5, '120 min', 'Kanal D', 'Ended', 'https://www.youtube.com/watch?v=example4', 7.5),
+('afili-ask', 'Afili Aşk', 'Afili Aşk', NULL, '2019', 'A romantic comedy about love and deception.', 2019, 'TV-14', 6.9, '120 min', 'Star TV', 'Ended', 'https://www.youtube.com/watch?v=example5', 6.9),
+('gulperi', 'Gülperi', 'Gulperi', NULL, '2018', 'A drama about a mother fighting for her children.', 2018, 'TV-14', 7.4, '120 min', 'Show TV', 'Ended', 'https://www.youtube.com/watch?v=example6', 7.4),
+('inadina-ask', 'İnadına Aşk', 'Inadina Aşk', NULL, '2015', 'A romantic comedy about stubborn love.', 2015, 'TV-14', 7.0, '120 min', 'Star TV', 'Ended', 'https://www.youtube.com/watch?v=example7', 7.0),
+('aglama-anne', 'Ağlama Anne', 'Don''t Cry Mother', NULL, '2018', 'A heart-wrenching story about a mother and her children.', 2018, 'TV-14', 7.3, '120 min', 'Kanal D', 'Ended', 'https://www.youtube.com/watch?v=example8', 7.3),
+('muhtesem-ikili', 'Muhtesem İkili', 'The Magnificent Two', NULL, '2018', 'A story about two brothers with different lives.', 2018, 'TV-14', 6.8, '120 min', 'Star TV', 'Ended', 'https://www.youtube.com/watch?v=example9', 6.8),
+('carpisma', 'Çarpışma', 'Collision', NULL, '2018', 'A drama about fate and the intertwining lives of four people.', 2018, 'TV-14', 6.5, '120 min', 'Show TV', 'Ended', 'https://www.youtube.com/watch?v=example10', 6.5);
+
+
+
+
+INSERT INTO Series (slug, title, title_eng, link, year, description, releaseYear, rating, star, runtime, network, status, trailer, recommendationScore) VALUES
+('siyah-inci', 'Siyah İnci', 'Black Pearl', NULL, '2017', 'A romantic drama about love and sacrifice.', 2017, 'TV-14', 7.2, '120 min', 'Star TV', 'Ended', 'https://www.youtube.com/watch?v=example1', 7.2),
+('kiralik-ask', 'Kiralık Aşk', 'Rent a Girlfriend', NULL, '2015', 'A romantic comedy about a girl who pretends to be a girlfriend.', 2015, 'TV-14', 7.9, '120 min', 'Star TV', 'Ended', 'https://www.youtube.com/watch?v=example2', 7.9),
+('dolunay', 'Dolunay', 'Full Moon', NULL, '2017', 'A romantic drama between a chef and his boss.', 2017, 'TV-14', 7.5, '120 min', 'Star TV', 'Ended', 'https://www.youtube.com/watch?v=example3', 7.5),
+('ask-laftan-anlamaz', 'Aşk Laftan Anlamaz', 'Love Doesn''t Understand Words', NULL, '2016', 'A romantic comedy about misunderstanding and love.', 2016, 'TV-14', 7.4, '120 min', 'Show TV', 'Ended', 'https://www.youtube.com/watch?v=example4', 7.4),
+('tatli-intikam', 'Tatlı İntikam', 'Sweet Revenge', NULL, '2016', 'A romantic comedy about revenge and love.', 2016, 'TV-14', 6.8, '120 min', 'Kanal D', 'Ended', 'https://www.youtube.com/watch?v=example5', 6.8),
+('coban-yildizi', 'Çoban Yıldızı', 'Shepherd Star', NULL, '2019', 'A story about love and family values.', 2019, 'TV-14', 7.0, '120 min', 'Star TV', 'Ended', 'https://www.youtube.com/watch?v=example6', 7.0),
+('hayatimin-aski', 'Hayatımın Aşkı', 'The Love of My Life', NULL, '2016', 'A romantic drama about unexpected love.', 2016, 'TV-14', 7.6, '120 min', 'Kanal D', 'Ended', 'https://www.youtube.com/watch?v=example7', 7.6),
+('gel-dese-ask', 'Gel Dese Aşk', 'Come, Love', NULL, '2019', 'A romantic comedy about love and destiny.', 2019, 'TV-14', 7.1, '120 min', 'Star TV', 'Ended', 'https://www.youtube.com/watch?v=example8', 7.1),
+('vatanim-sensin', 'Vatanım Sensin', 'Wounded Love', NULL, '2016', 'A historical drama set during World War I.', 2016, 'TV-14', 8.3, '120 min', 'Kanal D', 'Ended', 'https://www.youtube.com/watch?v=example9', 8.3),
+('vuslat', 'Vuslat', 'Reunion', NULL, '2019', 'A story about love and spiritual journeys.', 2019, 'TV-14', 7.4, '120 min', 'TRT 1', 'Ended', 'https://www.youtube.com/watch?v=example10', 7.4);
+
+
+
+
+INSERT INTO Series (slug, title, title_eng, link, year, description, releaseYear, rating, star, runtime, network, status, trailer, recommendationScore) VALUES
+('kara-sevda', 'Kara Sevda', 'Endless Love', NULL, '2015', 'A romantic drama about a love that transcends all obstacles.', 2015, 'TV-14', 8.0, '120 min', 'Star TV', 'Ended', 'https://www.youtube.com/watch?v=example1', 8.0),
+('cesur-ve-guzel', 'Cesur ve Güzel', 'Brave and Beautiful', NULL, '2016', 'A story of love and revenge in a wealthy family.', 2016, 'TV-14', 7.5, '120 min', 'Star TV', 'Ended', 'https://www.youtube.com/watch?v=example2', 7.5),
+('zemheri', 'Zemheri', 'Frost', NULL, '2020', 'A drama about love and betrayal in a cold world.', 2020, 'TV-14', 6.9, '120 min', 'Show TV', 'Ended', 'https://www.youtube.com/watch?v=example3', 6.9),
+('paramparca', 'Paramparça', 'Shattered', NULL, '2014', 'A story about two families intertwined by fate.', 2014, 'TV-14', 7.4, '120 min', 'Star TV', 'Ended', 'https://www.youtube.com/watch?v=example4', 7.4),
+('kardes-cocuklari', 'Kardeş Çocukları', 'Siblings', NULL, '2019', 'A drama about the struggles of siblings.', 2019, 'TV-14', 7.2, '120 min', 'Star TV', 'Ended', 'https://www.youtube.com/watch?v=example5', 7.2),
+('cocuk', 'Çocuk', 'Child', NULL, '2019', 'A touching story about a child and the challenges of life.', 2019, 'TV-14', 7.1, '120 min', 'Kanal D', 'Ended', 'https://www.youtube.com/watch?v=example6', 7.1),
+('azize', 'Azize', 'Azize', NULL, '2019', 'A story of love and sacrifice.', 2019, 'TV-14', 6.8, '120 min', 'Star TV', 'Ended', 'https://www.youtube.com/watch?v=example7', 6.8),
+('kimse-bilmez', 'Kimse Bilmez', 'Nobody Knows', NULL, '2019', 'A drama about hidden truths and family ties.', 2019, 'TV-14', 7.3, '120 min', 'ATV', 'Ended', 'https://www.youtube.com/watch?v=example8', 7.3),
+('sevgili-gecmis', 'Sevgili Geçmiş', 'Dear Past', NULL, '2019', 'A romantic drama about confronting the past.', 2019, 'TV-14', 6.6, '120 min', 'Kanal D', 'Ended', 'https://www.youtube.com/watch?v=example9', 6.6),
+('elimi-birakma', 'Elimi Bırakma', 'Don''t Let Go', NULL, '2018', 'A love story filled with challenges and perseverance.', 2018, 'TV-14', 7.7, '120 min', 'TRT 1', 'Ended', 'https://www.youtube.com/watch?v=example10', 7.7),
+('ask-aglatir', 'Aşk Ağlatır', 'Love Makes You Cry', NULL, '2019', 'A romantic drama about love and its pains.', 2019, 'TV-14', 7.4, '120 min', 'Kanal D', 'Ended', 'https://www.youtube.com/watch?v=example11', 7.4);
+
+
+
+INSERT INTO Series (slug, title, title_eng, link, year, description, releaseYear, rating, star, runtime, network, status, trailer, recommendationScore) VALUES
+('ferhat-ile-sirin', 'Ferhat ile Şirin', 'Ferhat and Sirin', NULL, '2019', 'A romantic drama based on the classic love story.', 2019, 'TV-14', 7.5, '120 min', 'Star TV', 'Ended', 'https://www.youtube.com/watch?v=example1', 7.5),
+('her-yerde-sen', 'Her Yerde Sen', 'Everywhere You Are', NULL, '2019', 'A romantic comedy about unexpected love.', 2019, 'TV-14', 7.4, '120 min', 'Star TV', 'Ended', 'https://www.youtube.com/watch?v=example2', 7.4),
+('benim-tatli-yalanim', 'Benim Tatlı Yalanım', 'My Sweet Lie', NULL, '2019', 'A story about love and deception.', 2019, 'TV-14', 6.8, '120 min', 'Kanal D', 'Ended', 'https://www.youtube.com/watch?v=example3', 6.8),
+('kursun', 'Kurşun', 'The Bullet', NULL, '2019', 'A drama about a detective and his struggles.', 2019, 'TV-14', 7.0, '120 min', 'Fox', 'Ended', 'https://www.youtube.com/watch?v=example4', 7.0),
+('iceride', 'İçerde', 'Inside', NULL, '2016', 'A gripping story about brothers on opposite sides of the law.', 2016, 'TV-14', 8.2, '120 min', 'Show TV', 'Ended', 'https://www.youtube.com/watch?v=example5', 8.2),
+('seref-sozu', 'Şeref Sözü', 'Word of Honor', NULL, '2019', 'A tale of loyalty and honor in a complex world.', 2019, 'TV-14', 7.3, '120 min', 'Kanal D', 'Ended', 'https://www.youtube.com/watch?v=example6', 7.3),
+('meleklerin-aski', 'Meleklerin Aşkı', 'Angel''s Love', NULL, '2019', 'A romantic drama about love and sacrifice.', 2019, 'TV-14', 6.9, '120 min', 'Star TV', 'Ended', 'https://www.youtube.com/watch?v=example7', 6.9),
+('hayat-mucizelere-gebe', 'Hayat Mucizelere Gebe', 'Life is Full of Miracles', NULL, '2019', 'A heartwarming story about life and miracles.', 2019, 'TV-14', 7.1, '120 min', 'TRT 1', 'Ended', 'https://www.youtube.com/watch?v=example8', 7.1),
+('kordugum', 'Kordugum', 'The Knot', NULL, '2019', 'A drama about love and family ties.', 2019, 'TV-14', 7.4, '120 min', 'Star TV', 'Ended', 'https://www.youtube.com/watch?v=example9', 7.4),
+('benim-hala-umudum-var', 'Benim Hala Umudum Var', 'I Still Have Hope', NULL, '2019', 'A story about hope and perseverance.', 2019, 'TV-14', 7.0, '120 min', 'Kanal D', 'Ended', 'https://www.youtube.com/watch?v=example10', 7.0);
+
+
+
+
+INSERT INTO Series (slug, title, title_eng, link, year, description, releaseYear, rating, star, runtime, network, status, trailer, recommendationScore) VALUES
+('bana-sevmeyi-anlat', 'Bana Sevmeyi Anlat', 'Tell Me How to Love', NULL, '2016', 'A romantic drama exploring the complexities of love.', 2016, 'TV-14', 7.2, '120 min', 'Star TV', 'Ended', 'https://www.youtube.com/watch?v=example1', 7.2),
+('sahane-damat', 'Şahane Damat', 'The Perfect Groom', NULL, '2018', 'A romantic comedy about love and family expectations.', 2018, 'TV-14', 6.9, '120 min', 'Kanal D', 'Ended', 'https://www.youtube.com/watch?v=example2', 6.9),
+('nefes-nefese', 'Nefes Nefese', 'Breathless', NULL, '2018', 'A gripping drama about a woman fighting for her life.', 2018, 'TV-14', 7.5, '120 min', 'Star TV', 'Ended', 'https://www.youtube.com/watch?v=example3', 7.5),
+('darisi-basimiza', 'Darısı Başımıza', 'Our Turn', NULL, '2019', 'A story about love and destiny.', 2019, 'TV-14', 7.0, '120 min', 'Kanal D', 'Ended', 'https://www.youtube.com/watch?v=example4', 7.0),
+('mendirman-jaloliddin', 'Mendirman Jaloliddin', 'Mendirman Jaloliddin', NULL, '2021', 'A historical drama about a legendary figure.', 2021, 'TV-14', 8.0, '120 min', 'TRT 1', 'Ended', 'https://www.youtube.com/watch?v=example5', 8.0),
+('fi', 'Fi', 'Fi', NULL, '2017', 'A psychological drama about love and obsession.', 2017, 'TV-14', 7.8, '120 min', 'Puhu TV', 'Ended', 'https://www.youtube.com/watch?v=example6', 7.8),
+('atesbocegi', 'Ateşböceği', 'Firefly', NULL, '2018', 'A romantic drama about a young couple in love.', 2018, 'TV-14', 6.7, '120 min', 'Star TV', 'Ended', 'https://www.youtube.com/watch?v=example7', 6.7),
+('vurgun', 'Vurgun', 'Vengeance', NULL, '2019', 'A story of love and revenge.', 2019, 'TV-14', 7.4, '120 min', 'Kanal D', 'Ended', 'https://www.youtube.com/watch?v=example8', 7.4),
+('bir-deli-ruzgar', 'Bir Deli Rüzgar', 'A Crazy Wind', NULL, '2018', 'A romantic drama about unexpected love.', 2018, 'TV-14', 7.1, '120 min', 'Star TV', 'Ended', 'https://www.youtube.com/watch?v=example9', 7.1),
+('mehmed-bir-cihan-fatihi', 'Mehmed Bir Cihan Fatihi', 'Mehmed: The Conqueror', NULL, '2018', 'A historical drama about the life of Mehmed II.', 2018, 'TV-14', 8.5, '120 min', 'Kanal D', 'Ended', 'https://www.youtube.com/watch?v=example10', 8.5);
+
+
+
+
+INSERT INTO Series (slug, title, title_eng, link, year, description, releaseYear, rating, star, runtime, network, status, trailer, recommendationScore) VALUES
+('leke', 'Leke', 'The Stain', NULL, '2021', 'A drama about a family dealing with a dark secret.', 2021, 'TV-14', 7.2, '120 min', 'Show TV', 'Ended', 'https://www.youtube.com/watch?v=example1', 7.2),
+('hayat-sirlari', 'Hayat Sırları', 'Life Secrets', NULL, '2020', 'A story about uncovering the mysteries of life.', 2020, 'TV-14', 7.5, '120 min', 'Kanal D', 'Ended', 'https://www.youtube.com/watch?v=example2', 7.5),
+('bir-umut-yeter', 'Bir Umut Yeter', 'One Hope is Enough', NULL, '2019', 'A drama about finding hope in difficult times.', 2019, 'TV-14', 6.8, '120 min', 'Star TV', 'Ended', 'https://www.youtube.com/watch?v=example3', 6.8),
+('gulizar', 'Gülizar', 'Gülizar', NULL, '2018', 'A romantic drama set in the 1950s.', 2018, 'TV-14', 7.0, '120 min', 'Kanal D', 'Ended', 'https://www.youtube.com/watch?v=example4', 7.0),
+('dayan-yuregim', 'Dayan Yüreğim', 'Stay Strong My Heart', NULL, '2019', 'A story about a woman''s strength and resilience.', 2019, 'TV-14', 7.3, '120 min', 'TV8', 'Ended', 'https://www.youtube.com/watch?v=example5', 7.3),
+('keskin-bicak', 'Keskin Bıçak', 'Sharp Knife', NULL, '2020', 'A crime drama about a detective and his cases.', 2020, 'TV-14', 7.1, '120 min', 'Fox', 'Ended', 'https://www.youtube.com/watch?v=example6', 7.1),
+('hizmetciler', 'Hizmetçiler', 'The Servants', NULL, '2018', 'A drama about the lives of household servants.', 2018, 'TV-14', 6.9, '120 min', 'Kanal D', 'Ended', 'https://www.youtube.com/watch?v=example7', 6.9),
+('kizlarim-icin', 'Kızlarım İçin', 'For My Daughters', NULL, '2019', 'A story about a father''s love and sacrifice for his daughters.', 2019, 'TV-14', 7.4, '120 min', 'TRT 1', 'Ended', 'https://www.youtube.com/watch?v=example8', 7.4),
+('seref-meselesi', 'Şeref Meselesi', 'A Matter of Honor', NULL, '2020', 'A drama about family honor and its consequences.', 2020, 'TV-14', 7.2, '120 min', 'Show TV', 'Ended', 'https://www.youtube.com/watch?v=example9', 7.2),
+('bir-aile-hikayesi', 'Bir Aile Hikayesi', 'A Family Story', NULL, '2019', 'A heartwarming tale about the bonds of family.', 2019, 'TV-14', 7.0, '120 min', 'Kanal D', 'Ended', 'https://www.youtube.com/watch?v=example10', 7.0);
+
+
+
+INSERT INTO Series (slug, title, title_eng, link, year, description, releaseYear, rating, star, runtime, network, status, trailer, recommendationScore) VALUES
+('hukumsuz', 'Hükumsuz', 'Lawless', NULL, '2021', 'A drama about a family living outside the law.', 2021, 'TV-14', 7.5, '120 min', 'Show TV', 'Ended', 'https://www.youtube.com/watch?v=example1', 7.5),
+('bir-annenin-gunahi', 'Bir Annenin Günahı', 'A Mother\'s Sin', NULL, '2020', 'A story about a mother's sacrifice for her child.', 2020, 'TV-14', 7.2, '120 min', 'Kanal D', 'Ended', 'https://www.youtube.com/watch?v=example2', 7.2),
+('ogretmen', 'Öğretmen', 'The Teacher', NULL, '2019', 'A drama about a dedicated teacher and her students.', 2019, 'TV-14', 7.8, '120 min', 'Star TV', 'Ended', 'https://www.youtube.com/watch?v=example3', 7.8),
+('guvercin', 'Güvercin', 'Pigeon', NULL, '2018', 'A romantic drama about a young woman and her love.', 2018, 'TV-14', 7.0, '120 min', 'Kanal D', 'Ended', 'https://www.youtube.com/watch?v=example4', 7.0),
+('yarim-kalan-asklar', 'Yarım Kalan Aşklar', 'Unfinished Loves', NULL, '2019', 'A series of stories about love and its complications.', 2019, 'TV-14', 6.9, '120 min', 'Star TV', 'Ended', 'https://www.youtube.com/watch?v=example5', 6.9);
